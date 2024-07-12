@@ -25,7 +25,7 @@ import net.minecraft.util.Identifier;
 public class MWNetworking {
 	protected MWNetworking() {}
 
-	protected static final Identifier REORDER_INVENTORY_C2S_PACKET = new Identifier(MouseWheelie.MOD_ID, "reorder_inventory_c2s");
+	protected static final Identifier REORDER_INVENTORY_C2S_PACKET = new ResourceLocation(MouseWheelie.MOD_ID, "reorder_inventory_c2s");
 
 	public static PacketByteBuf createBuffer() {
 		return new PacketByteBuf(Unpooled.buffer());
